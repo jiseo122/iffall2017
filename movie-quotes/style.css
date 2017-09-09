@@ -1,0 +1,25 @@
+html {
+	font-family: sans-serif;
+	background-color: #f9c425;
+}
+strong {
+	color:black;
+}
+em {
+	color: #808080;
+}
+#movie-title {
+	font-size: 36px;
+		}
+	/* this is how you comment */
+#movie-subtitle {
+	font-size: 24px;
+	/* we use # to identify ID */
+}
+.script{
+	font-family: monospace;
+	/* we use a period to identify class.
+	we use classes for things to occur multiple times in the code. 
+	id is for very specific, one-time occuring */
+
+}		

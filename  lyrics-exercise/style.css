@@ -1,0 +1,19 @@
+html {
+	font-family: arial;
+	background-color:blue;
+	color:white;
+	text-align:center;
+}
+
+strong {
+	color:yellow;
+}
+em {
+	color:white;
+}
+#song-title {
+	font-size: 24px;
+}
+#lyrics-title{
+	font-size:18px;
+}

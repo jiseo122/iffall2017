@@ -1,0 +1,74 @@
+html, 
+body {
+	background-color: oldlace;
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+	/*when we have an idea about what we want our design to be like, but not sure if everyone has it. so if i dont have publico, it's gonna show georgia, and not if georgia, it'll be serif*/
+}
+
+.label{
+	font-size:26px;
+	font-weight:bold;
+}
+
+.section {
+	font-size:20px;
+	color:blue;
+}
+
+.sub-section {
+	color:black;
+}
+
+.font-weight .normal {
+	font-weight: normal;
+}
+.font-weight .bold {
+	font-weight: bold;
+}
+.font-style .italic {
+	font-style:italic;
+}
+.font-style .oblique {
+	font-style:oblique;
+}
+.letter-spacing .positive {
+	letter-spacing:7px;
+}
+.letter-spacing .negative {
+	letter-spacing:.02px;
+}
+.text-transform .lowercase {
+	text-transform: lowercase;
+}
+.text-transform .uppercase {
+	text-transform: uppercase;
+}
+.text-transform .capitlize {
+	text-transform: capitalize;
+}
+.text-decoration .overline {
+	text-decoration: overline;
+}
+.text-decoration .line-through {
+	text-decoration: line-through;
+}
+.text-decoration .complex {
+	text-decoration: overline underline wavy red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

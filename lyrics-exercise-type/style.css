@@ -1,0 +1,51 @@
+html, 
+body {
+	background-color: darkblue;
+	font-family: 'Oswald', sans-serif;
+	font-size:20px;
+	color:yellow;
+	text-align:center;
+}
+
+#song-title {
+	font-size: 24px;
+	text-decoration: underline;
+}
+#lyrics-subtitle{
+	font-size:18px;
+	color:pink;
+}
+
+.captain {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size:25px;
+}
+.kids {
+	font-style:italic;
+}
+.sing {
+	text-decoration: overline underline wavy blue;
+}
+.respond {
+	letter-spacing: 14px;
+	font-size: 30px;
+	color:white;
+}
+.sing .last {
+	text-transform: uppercase;
+	text-decoration: overline underline wavy red;
+	font-size: 25px;
+}
+
+.chorus {
+	font-style:italic;
+	text-transform: capitalize;
+	color:pink;
+}
+.chorus .p1{
+	font-size:16px;
+}
+.chorus .finale{
+	letter-spacing:11px;
+}

@@ -1,0 +1,127 @@
+
+/*html,
+body,
+
+header {
+	margin: 3rem;
+}
+p {
+	line-height: 1.6;
+}
+.see-all{
+	font-size:0.8em;
+	text-transform: uppercase;
+}
+.shows h1 {
+	font-size:2.5rem;
+}
+
+.shows h2 {
+	font-size:1rem;
+	text-transform: uppercase;
+}
+.shows li: first-child{
+	font-weight:lighter;
+}*/
+
+html, 
+body, 
+
+header {
+	margin-bottom: 3rem;
+}
+p {
+	line-height:1.6;
+}
+.see-all {
+	font-size: .8em;
+	text-transform: uppercase;
+}
+h1 {
+	font-size:2.5rem;
+}
+h2 {
+	font-size:1rem;
+	text-transform: uppercase;
+}
+/*{
+	font-weight: lighter;
+}*/
+
+/*6*/ li h1 {
+	font-weight:lighter;
+}
+li h2 {
+	font-weight:lighter;
+}
+
+/*7*/ 
+.cast li {
+	width: 25%;
+}
+img {
+	width:100%;
+}
+
+/*8*/
+img ~ div {
+	width:25%;
+}
+
+h1 {
+	border-top:5px solid black;
+}
+
+
+
+/*10*/
+.selected a{
+	color: black;
+	font-weight: bold;
+}
+/*11*/
+div {
+	font-size:0.8rem;
+}
+/*12*/
+.cast img + div {
+	font-weight:bold;
+}
+/*13*/
+a div + div {
+	font-style: italic;
+}
+
+/*14*/
+.seasons ul::after{
+	content: "*";
+}
+
+/*15*/
+
+h1::after {
+	content: "* In production";
+	font-size: .7rem ;
+	color: #999;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

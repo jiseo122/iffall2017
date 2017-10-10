@@ -1,0 +1,42 @@
+
+
+
+#first {
+	float:right;
+	position:relative;
+	padding: 25px;
+
+}
+
+#second {
+	position:absolute;
+	right: 240px;
+    bottom: -444px;
+}
+
+#third {
+	background-color:green;
+	position:fixed;
+	top:0;
+	right:0;
+}
+
+#fourtha {
+	background-color:red;
+	position:absolute;
+	z-index: 1;
+	margin:0 auto;
+	right: 570px;
+    top: 1940px;
+}
+
+#fourthb {
+	background-color:black;
+	position:absolute;
+	z-index:0;
+	margin:0 auto;
+	right: 560px;
+    top: 1950px;
+}
+
+

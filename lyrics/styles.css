@@ -1,0 +1,83 @@
+
+
+body {
+	margin-top: 80px;
+	font-family: 'Love Ya Like A Sister', sans-serif;
+	background-color:#5CE1E6;
+	color:#42698C;
+	height:1000px;
+	padding: 0;
+	border:0;
+
+}
+section{
+	text-align:center;
+	width: 450px;
+	margin-top:0;
+	margin-bottom:0;   
+	margin-left: 510px;
+	padding:0;
+	border:0;
+}
+h1,h2 {
+	font-family:'Baloo Chettan';
+	font-size:80px;
+	line-height: .85;
+
+}
+h1{
+	color:#FFEE34;
+
+}
+h2{
+	color:#B36D3D;
+	margin-top: -44px;
+	    margin-left: -40px;
+}
+#one{
+	color:;
+}
+
+#three{
+	display:block;
+    margin-top: -10px;
+}
+
+p#three:hover{
+	color:#FFEE34;
+}
+
+.jf img{
+	width:225px;
+
+
+}
+
+.a { 
+	margin-top: -417px;
+    margin-right: 860px;
+    transform: rotate(120deg);
+}
+
+
+.b {
+
+	margin-right: 180px;
+    margin-top: -200px;
+    transform: scaleX(-1);
+   	display:block; 
+}
+.c {
+	margin-left: -110px;
+    margin-top: 210px;
+    transform: rotate(45deg);
+
+}
+
+#long img {
+	width:1450px;
+    margin-top: -390px;
+    padding: 0;
+    border-top-width: 0;
+}
+

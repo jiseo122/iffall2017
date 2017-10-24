@@ -1,0 +1,206 @@
+
+
+body {
+	margin-top: 80px;
+	font-family: 'Love Ya Like A Sister', sans-serif;
+	background-color:#5CE1E6;
+	color:#42698C;
+	height:1000px;
+	padding: 0;
+	border:0;
+
+}
+section{
+	text-align:center;
+
+	margin-top:0;
+	margin-bottom:0;   
+	
+	padding:0;
+	border:0;
+}
+h1,h2 {
+	font-family:'Baloo Chettan';
+	font-size:80px;
+	line-height: .85;
+	text-align: center;
+	position: relative;
+	z-index: 5;
+
+}
+h1{
+	color:#FFEE34;
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		color:#FFEE34;
+	}
+	50%{
+		color:#B36D3D;
+	}
+	100% {
+		color:#FFEE34;
+	}
+}
+
+h2{
+	color:#B36D3D;
+	margin-top: -44px;
+	    margin-left: -40px;
+animation: pulse2 2s infinite;
+}
+
+@keyframes pulse2 {
+	0% {
+		color:#B36D3D;
+	}
+	50%{
+		color:#FFEE34;
+	}
+	100% {
+		color:#B36D3D;
+	}
+}
+
+
+
+#one{
+	color:;
+}
+
+#three{
+	display:block;
+    margin-top: -10px;
+}
+
+p#three:hover{
+	color:#FFEE34;
+}
+
+.jf {
+	position: fixed;
+	z-index:20;
+}
+
+
+.jf img{ 
+	width:225px;
+ }
+
+
+
+.a { 
+	top: 410px;
+    right: 61px;
+    transform: rotate(120deg);
+    animation: spinning 2s infinite;
+}
+
+@keyframes spinning {
+	0% {
+		transform: rotate(120deg);
+	}
+	25% {
+		transform: rotate(90deg);
+	}
+	50% { 
+		transform: rotate(90deg);
+	 }
+}
+
+
+.b {
+	right: 260px;
+    top: 60px;
+    transform: scaleX(-1);
+   	display:block; 
+   	animation: spinning2 2s infinite;
+}
+
+@keyframes spinning2 {
+	0% {
+		transform: rotate(0deg);
+	}
+	5% {
+		transform: rotate(20deg);
+	}
+	10% { 
+		transform: rotate(0deg);
+	 }
+
+}
+.c {
+	left: 210px;
+    top: 226px;
+    transform: rotate(45deg);
+     animation: spinning3 2s infinite;
+}
+
+@keyframes spinning3 {
+	0% {
+		transform: rotate(45deg);
+	}
+	25% {
+		transform: rotate(135deg);
+	}
+	50% { 
+		transform: rotate(225deg);
+	 }
+	 75% { 
+		transform: rotate(315deg);
+	 }
+	 100% { 
+		transform: rotate(405deg);
+	 }
+}
+
+
+#lyrics-bg {
+	background: url("lyrics-bg.jpg");
+	margin:auto;
+	width: 724px;
+	height:840px;
+	padding-top: 35px;
+	background-position: center bottom ;
+	position: relative;
+	z-index: 10;
+}
+#under-bg {
+	background: url("flower.png");
+	background-size: contain;
+	width:100%;
+	height:100%;
+	animation: flower 3s ease-in-out infinite;
+	position: absolute;
+	z-index:1;
+}
+	
+@keyframes flower {
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: .10;
+	}
+	50% {
+		opacity: .2;
+	}
+	75% {
+		opacity: .10;
+	}
+	100% {
+		opacity: 0;
+	}
+
+}
+
+
+#long img {
+	width:1450px;
+    margin-top: -390px;
+    padding: 0;
+    border-top-width: 0;
+}
+

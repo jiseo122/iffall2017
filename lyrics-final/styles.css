@@ -65,9 +65,12 @@ animation: pulse2 2s infinite;
 }
 
 
+p#two:hover{
+	color:#F45DAC;
+}
 
-#one{
-	color:;
+p#one:hover{
+	color:#F45DAC;
 }
 
 #three{
@@ -76,7 +79,7 @@ animation: pulse2 2s infinite;
 }
 
 p#three:hover{
-	color:#FFEE34;
+	color:#F45DAC;
 }
 
 .jf {

@@ -33,11 +33,11 @@ img {
     height: 210px;
 	border-radius: 50%;
 	background:#6624F7;
-	display:inline-block;
 	position:relative;
 	margin-top:-180px;
 	z-index:1;
-	margin-left: 510px;
+	margin-left: auto;
+	margin-right:auto;
 
  }
 
@@ -51,11 +51,11 @@ img {
  ul {
 	list-style-type: none;
     margin: 0;
-    padding: 20px;
+    padding: 15px;
     width: 585px;
     background-color: #6624F7;
-    margin-left: 400px;
-    margin-top:35px;
+    margin-left: auto;
+    margin-right:auto;
  }
 
  li {
@@ -67,27 +67,17 @@ img {
 
 #menu a:hover {
     background-color: #6624F7;
-    color: yellow;
+    color: #f2d635;
 }
-.bar {
-	width: 400px;
-    height: 75px;
-    border: 2px solid #6624F7;
-    box-sizing: border-box;
-    margin: 0;
-    position: absolute;
-    margin-top: 112px;
-    margin-left: -30px;  
+
+#menu {
+	border: 1px solid white;
+	border-style: dashed;
+	margin:auto;
+	margin:0;
+	margin-top:35px;
 }
-.bar2 {
-	width: 400px;
-    height: 75px;
-    border: 2px solid #6624F7;
-    box-sizing: border-box;
-    margin: 0;
-    position: absolute;
-    margin-top: 112px;
-	margin-left: 1056px;
+
 
 }
 /* ABOUT PAGE*/
@@ -112,6 +102,10 @@ img {
 	z-index:1;
 	margin-left: 510px;
  }
+
+ #aboutbutton {
+	color:#f2d635;
+}
  
 .header {
 	font-family: "camingodos-web";

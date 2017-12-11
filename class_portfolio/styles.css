@@ -1,0 +1,50 @@
+
+body {
+	background-color:AliceBlue;
+}
+section {
+	text-align: center;
+	font-family: "Avenir";
+ 	width: 55%;
+ 	margin:auto;
+
+ 	margin-top: 75px;
+ 
+}
+
+
+#bigbox{
+	width:1000px;
+	margin-left:-110px;
+	margin-top:65px;
+
+}
+img{
+    box-sizing: border-box;
+    margin: 0 10px;
+    width: 95%;
+    padding-left:10px;
+    padding-right:10px;
+}
+.box{
+	padding-left:-30px;
+	padding-right:-30px;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-right:20px;
+	border: 2px solid LightBlue ;
+	width:300px;
+	display:inline-block;
+}
+.text{
+	color:DarkSlateBlue ;
+	text-transform: uppercase;
+}
+.assign{
+	font-weight:bold;
+	font-size: 20px;
+	
+}
+.title {
+	margin-top:-15px;
+}
